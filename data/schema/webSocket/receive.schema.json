@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "CommandName": {
+            "enum": [
+                "READY_FOR_EVENTS",
+                "STREAM_CONNECTED_USERS"
+            ],
+            "type": "string"
+        }
+    },
+    "properties": {
+        "clientId": {
+            "type": "string"
+        },
+        "command": {
+            "$ref": "#/definitions/CommandName"
+        },
+        "data": {
+            "additionalProperties": true,
+            "properties": {
+            },
+            "type": "object"
+        },
+        "meta": {
+            "additionalProperties": true,
+            "description": "Allows a client to provide meta information for error\nmessages",
+            "properties": {
+            },
+            "type": "object"
+        }
+    },
+    "type": "object",
+    "required": [ "clientId", "command" ]
+}

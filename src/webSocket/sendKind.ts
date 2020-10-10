@@ -1,0 +1,6 @@
+export enum SendKind {
+  BAD_MESSAGE,
+  NOT_JSON,
+  UUID,
+  STREAMED_CONNECTED_USER,
+}

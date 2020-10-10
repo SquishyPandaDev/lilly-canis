@@ -1,0 +1,1 @@
+export const DISCORD_GUID = "622594271282855946"
