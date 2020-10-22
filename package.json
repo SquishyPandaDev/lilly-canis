@@ -12,7 +12,7 @@
     "schema:websocket:receive": "typescript-json-schema tsconfig.json Receive -o data/schema/webSocket/receive.schema.json"
   },
   "devDependencies": {
-    "@types/node": "^14.14.0",
+    "@types/node": "^14.14.2",
     "@types/uuid": "^8.3.0",
     "@types/ws": "^7.2.6",
     "ajv": "^7.0.0-beta.1",
