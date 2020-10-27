@@ -12,20 +12,20 @@
     "schema:websocket:receive": "typescript-json-schema tsconfig.json Receive -o data/schema/webSocket/receive.schema.json"
   },
   "devDependencies": {
-    "@types/node": "^14.14.2",
-    "@types/uuid": "^8.3.0",
-    "@types/ws": "^7.2.6",
-    "ajv": "^7.0.0-beta.1",
-    "colors": "^1.4.0",
-    "discord.js": "^12.4.0",
-    "madge": "^3.10.0",
-    "mkdirp": "^1.0.4",
-    "npm-run-all": "^4.1.5",
-    "ts-node": "^9.0.0",
-    "tsconfig-paths": "^3.9.0",
-    "typescript": "^4.0.3",
-    "typescript-json-schema": "^0.43.0",
-    "uuid": "^8.3.0",
-    "ws": "^7.3.1"
+    "@types/node": "14.x",
+    "@types/uuid": "8.x",
+    "@types/ws": "7.x",
+    "ajv": ">=7.0.0-beta.1",
+    "colors": "1.x",
+    "discord.js": "12.x",
+    "madge": "3.x",
+    "mkdirp": "1.x",
+    "npm-run-all": "4.x",
+    "ts-node": "9.x",
+    "tsconfig-paths": "3.x",
+    "typescript": "4.x",
+    "typescript-json-schema": "0.x",
+    "uuid": "8.x",
+    "ws": "7.x"
   }
 }
